@@ -23,4 +23,8 @@ public class HelloCotronller {
         return "thanks";
     }
 
+    @RequestMapping("/mastertest")
+    public String mastertest(){
+        return "mastertest";
+    }
 }
