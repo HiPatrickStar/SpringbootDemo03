@@ -27,4 +27,9 @@ public class HelloCotronller {
     public String mastertest(){
         return "mastertest";
     }
+    @RequestMapping("/hotfixtext")
+    public String hotfixtext(){
+        return "hotfixtext";
+    }
+
 }
