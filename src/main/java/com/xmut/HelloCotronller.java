@@ -23,4 +23,9 @@ public class HelloCotronller {
         return "thanks";
     }
 
+    @RequestMapping("/hotfixtext")
+    public String hotfixtext(){
+        return "hotfixtext";
+    }
+
 }
