@@ -14,5 +14,9 @@ public class HelloCotronller {
     public String saygood(){
         return "good";
     }
+    @RequestMapping("/third")
+    public String saythanks(){
+        return "thanks";
+    }
 
 }
