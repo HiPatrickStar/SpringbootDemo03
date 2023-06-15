@@ -32,4 +32,8 @@ public class HelloCotronller {
         return "hotfixtext";
     }
 
+    @RequestMapping("/pushssh")
+    public String pushssh(){
+        return "pushssh";
+    }
 }
