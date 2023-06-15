@@ -41,4 +41,7 @@ public class HelloCotronller {
     public String pullssh(){
         return "pullssh";
     }
+
+    public String updategithub(){
+        return "github上更新了，码云上通过点击项目名字旁边的更新按钮进行同步更新";
 }
