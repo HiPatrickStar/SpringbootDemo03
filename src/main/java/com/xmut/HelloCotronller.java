@@ -36,4 +36,9 @@ public class HelloCotronller {
     public String pushssh(){
         return "pushssh";
     }
+
+     @RequestMapping("/pullssh")
+    public String pullssh(){
+        return "pullssh";
+    }
 }
