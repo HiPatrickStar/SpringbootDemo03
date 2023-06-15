@@ -6,9 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloCotronller {
 
-    @RequestMapping
+    @RequestMapping("/first")
     public String sayHello(){
         return "hello";
+    }
+    @RequestMapping("/second")
+    public String saygood(){
+        return "good";
     }
 
 }
