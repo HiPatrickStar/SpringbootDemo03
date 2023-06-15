@@ -18,5 +18,9 @@ public class HelloCotronller {
     public String saythanks(){
         return "thanks";
     }
+    @RequestMapping("/hotfixthird")
+    public String hotfixsaythanks(){
+        return "thanks";
+    }
 
 }
